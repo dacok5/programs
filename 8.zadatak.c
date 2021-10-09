@@ -35,4 +35,6 @@ Formula glasi matrica[i][j]=DG+(float)rand()/RAND_MAX*(GG-DG). Varijable GG i DG
 u samom zaglavlju koda radi lakseg snalazenja te ako je potrebno samo promijenim granice u zaglavlju. Mogao sam napisati
 matrica[i][j]=1+(float)rand()/RAND_MAX*(101-1);, ali je lakse promijeniti granice u zaglvalju nego traziti u kodu
 formulu te tamo mijenjati granice. Ovaj kod nam ne vraca nista nego nam samo prikazuje nacin kako napravimo matricu
-te nam prikazuje popunjavanje matrice pseudoslucajnim brojevima.*/
+te nam prikazuje popunjavanje matrice pseudoslucajnim brojevima.srand(unsigned)time(NULL); nam sluzi za pseudoslucajne brojeve
+da mozemo popuniti matricu. Najbolje je to odma napisati na pocetku da ne zaboravimo kasnije jer moramo to napisati prije popunjavanja
+matrice pseudoslucajnim brojevima.*/
