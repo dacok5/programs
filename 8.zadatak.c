@@ -24,7 +24,7 @@ void main() {
 			matrica[i][j] = DG + (float)rand() / RAND_MAX * (GG - DG);
 		}
 	}
-	return 0;
+	
 }
 /*U ovom zadatku smo korisniku omogucili unos dimenzija u matricu s granicama 40,30. Kako bi smo zadovoljili interval
 unosa koristimo do while petlju. Matrica je zapravo 2D polje pa ju kreiramo na nacin da napravimo varijablu npr.
