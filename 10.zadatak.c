@@ -52,4 +52,5 @@ Korisniku je omogucen unos scanf() funkcijom no prije toga su nam potrebne dvije
 matricu tj. kroz svako polje zasebno. Ponavljamo proces unosa za matricu B. Kako 
 bismo izracunali sumu matrica A i B opet moramo prolaziti kroz matrice te zapisujemo sumu na nacin da ju spremimo
 u varijablu koja nam se ponasa kao matrica C te krajnje da bi nam ispis bio valjan opet moramo prolaziti for petljama
-te ispisujemo pohranjene vrijednosti iz matrice C.*/
+te ispisujemo pohranjene vrijednosti iz matrice C. Vazna stavka za primjetiti je da koristimo za svaki unos ili ispis matrice for() petlju. For() petlja nam je
+jako vazna da bi svaki put prolazili kroz matricu te da bi njom mogli baratati.*/
