@@ -50,6 +50,6 @@ int main()
 /*Omogucili smo korisniku unos velicina prvo za matricu A te onda smo omogucili korisniku unos za matricu B.
 Korisniku je omogucen unos scanf() funkcijom no prije toga su nam potrebne dvije for petlje da bi prolazili kroz
 matricu tj. kroz svako polje zasebno. Ponavljamo proces unosa za matricu B. Kako bismo izracunali produkt
-matrica A i B opet moramo prolaziti kroz matrice te zapisujemo sumu na nacin da ju spremimo
+matrica A i B opet moramo prolaziti kroz matrice te zapisujemo produkt na nacin da ga spremimo
 u varijablu koja nam se ponasa kao matrica C te krajnje da bi nam ispis bio valjan opet moramo prolaziti for petljama
 te ispisujemo pohranjene vrijednosti iz matrice C.*/
